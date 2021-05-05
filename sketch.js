@@ -15,7 +15,7 @@ settings =
 {
   'sigma': 10.0,
   'epsilon': 0.005,
-  'dt': 0.25,
+  'dt': 0.25, 
   'maxforce': 0.5,
   'r0': 0.0,
   'drag': 0.0,
@@ -27,7 +27,7 @@ settings =
 }
 
 function setup() {
-  createCanvas(width_, height_);
+  var canvas = createCanvas(width_, height_);
 
   regions = new Regions(width_/region_size,height_/region_size);
   
@@ -396,3 +396,5 @@ class Particle {
   }
 
 }
+
+document.getElementById("defaultCanvas0").setAttribute("style", "width: 100%; height: 100%;");
