@@ -7,3 +7,10 @@ html, body {
 canvas {
   display: block;
 }
+
+main {
+  max-width: 1200px;
+  max-height: 800px;
+  margin: auto;
+  vertical-align: center;
+}
